@@ -1,7 +1,6 @@
 import path from 'node:path'
 import process from 'node:process'
 import fs from 'node:fs'
-import type { Metadata } from 'ffmetadata'
 import Converter from './lib/converter/Converter.js'
 import { prompt, rl } from './util/readline.js'
 
