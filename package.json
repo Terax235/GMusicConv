@@ -1,7 +1,7 @@
 {
   "name": "gmusicconv",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "author": "",
   "license": "ISC",
@@ -15,7 +15,7 @@
     "test": "pnpm build && pnpm start"
   },
   "dependencies": {
-    "ffmetadata": "^1.7.0",
+    "ffmetadata": "github:Terax235/node-ffmetadata",
     "music-metadata": "^8.3.0"
   },
   "devDependencies": {
