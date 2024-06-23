@@ -1,0 +1,6 @@
+node_modules/
+dist/
+out/
+*.bwav
+*.wav
+*.m4a

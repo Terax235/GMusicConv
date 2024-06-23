@@ -1,0 +1,30 @@
+{
+  "name": "gmusicconv",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "node ./dist/src/index.js",
+    "test": "pnpm build && pnpm start"
+  },
+  "dependencies": {
+    "ffmetadata": "^1.7.0",
+    "music-metadata": "^8.3.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.1",
+    "@eslint/js": "^9.5.0",
+    "@types/node": "^20.14.8",
+    "eslint": "9.x",
+    "globals": "^15.6.0",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.13.1"
+  }
+}
